@@ -836,11 +836,7 @@ public partial class MainWindow : MicaWindow
                 if (mediaKeysPressed || (!SettingsManager.Current.MediaFlyoutVolumeKeysExcluded && volumeKeysPressed))
                     result = TryShowMediaFlyoutDebounced();
 
-                if (SettingsManager.Current.VolumeControlEnabled)
-                {
-                    volumeMixerWindow?.ViewModel.SyncMasterFromDevice();
-                    volumeMixerWindow?.ShowFlyout();
-                }
+                ShowVolumeFlyoutIfEnabled();
 
                 if (!result)
                 {
@@ -889,6 +885,33 @@ public partial class MainWindow : MicaWindow
         _lastFlyoutTime = currentTime;
         ShowMediaFlyout();
         return true;
+    }
+
+    private void ShowVolumeFlyoutIfEnabled()
+    {
+        if (!SettingsManager.Current.VolumeControlEnabled)
+            return;
+
+        volumeMixerWindow?.ViewModel.SyncMasterFromDevice();
+        volumeMixerWindow?.ShowFlyout();
+    }
+
+    public void ShowMediaFlyoutWithSyncedVolume(bool toggleMode = false, bool forceShow = false)
+    {
+        bool shouldSyncVolumeFlyout = GetActiveMediaSession() != null
+            && (forceShow || SettingsManager.Current.MediaFlyoutEnabled)
+            && !FullscreenDetector.IsFullscreenApplicationRunning()
+            && SettingsManager.Current.VolumeControlEnabled
+            && SettingsManager.Current.VolumeControlSyncWithMediaFlyout;
+        bool isToggleClose = toggleMode && Visibility == Visibility.Visible && !_isHiding;
+
+        if (shouldSyncVolumeFlyout && isToggleClose)
+            volumeMixerWindow?.HideFlyout();
+
+        ShowMediaFlyout(toggleMode, forceShow);
+
+        if (shouldSyncVolumeFlyout && !isToggleClose)
+            ShowVolumeFlyoutIfEnabled();
     }
 
     public async void ShowMediaFlyout(bool toggleMode = false, bool forceShow = false)
@@ -1899,7 +1922,7 @@ public partial class MainWindow : MicaWindow
             //ThemeService themeService = new ThemeService();
             //themeService.ChangeTheme(MicaWPF.Core.Enums.WindowsTheme.Light);
         }
-        else if (SettingsManager.Current.NIconLeftClick == 1) ShowMediaFlyout();
+        else if (SettingsManager.Current.NIconLeftClick == 1) ShowMediaFlyoutWithSyncedVolume();
     }
 
     private Task PauseOtherSessions(MediaSession currentMediaSession)

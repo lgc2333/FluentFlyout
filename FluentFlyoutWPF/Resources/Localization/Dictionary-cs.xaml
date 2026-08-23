@@ -233,4 +233,7 @@ Poznámka: Jelikož se jedná o open-source projekt, jsou tyto funkce k dispozic
     <system:String x:Key="LegacyTaskbarWidthDescription">Použije starší sytém pro šířku na hlavním panelu pro panelové Widgety</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Vždy zobrazit a skrýt společně s plovoucím oknem médií</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Zobrazit nebo skrýt plovoucí okno hlasitosti společně s plovoucím oknem médií při otevření z ikony v oznamovací oblasti nebo widgetu hlavního panelu.</system:String>
+    <system:String x:Key="PositionDefault">Výchozí</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Pozice obalu alba</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Výchozí hodnota je vlevo. Pokud je pozice widgetu nastavena vpravo dole, výchozí hodnota je vpravo.</system:String>
 </ResourceDictionary>

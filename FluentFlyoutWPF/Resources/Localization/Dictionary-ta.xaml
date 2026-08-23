@@ -44,4 +44,7 @@
     <system:String x:Key="LockWindow_InsertPressed">இன்சர்ட் அழுத்தப்பட்டது</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">மீடியா ஃப்ளையவுட்டுடன் எப்போதும் காட்டவும் மறைக்கவும்</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Tray icon அல்லது taskbar widget இலிருந்து திறக்கும் போது volume flyout-ஐ media flyout உடன் காட்டவும் அல்லது மறைக்கவும்.</system:String>
+    <system:String x:Key="PositionDefault">இயல்பு</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">ஆல்பம் அட்டையின் நிலை</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">இயல்பாக இடப்புறம். விட்ஜெட் நிலை கீழ் வலப்புறமாக அமைக்கப்பட்டிருந்தால், இயல்பாக வலப்புறம் இருக்கும்.</system:String>
 </ResourceDictionary>

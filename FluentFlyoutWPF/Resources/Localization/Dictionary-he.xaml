@@ -250,4 +250,7 @@
     <system:String x:Key="MasterVolumeText">עוצמת קול כללית</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">הצג והסתר תמיד יחד עם חלונית המדיה</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">הצג או הסתר את חלונית עוצמת הקול יחד עם חלונית המדיה כאשר היא נפתחת מסמל המגש או מווידג&apos;ט שורת המשימות.</system:String>
+    <system:String x:Key="PositionDefault">ברירת מחדל</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">מיקום עטיפת האלבום</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">ברירת המחדל היא שמאלה. אם מיקום הווידג׳ט מוגדר לימין למטה, ברירת המחדל היא ימינה.</system:String>
 </ResourceDictionary>

@@ -290,4 +290,7 @@ Nota: Como proyecto de código abierto, estas opciones también están disponibl
     <system:String x:Key="TaskbarVisualizerBaselineAutoHideDescription">Oculta automáticamente la base cuando no se reproduce audio</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Mostrar y ocultar siempre con el flyout multimedia</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Muestra u oculta el flyout de volumen junto con el flyout multimedia cuando se abre desde el icono de la bandeja o el widget de la barra de tareas.</system:String>
+    <system:String x:Key="PositionDefault">Predeterminado</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Posición de la carátula</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">De forma predeterminada queda a la izquierda. Si la posición del widget está configurada abajo a la derecha, queda a la derecha de forma predeterminada.</system:String>
 </ResourceDictionary>

@@ -290,4 +290,7 @@
     <system:String x:Key="OnboardingStepsCounter">Шаг {0} из {1}</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Всегда показывать и скрывать вместе с панелью мультимедиа</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Показывает или скрывает панель громкости вместе с панелью мультимедиа при открытии из значка в трее или виджета панели задач.</system:String>
+    <system:String x:Key="PositionDefault">По умолчанию</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Положение обложки альбома</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">По умолчанию слева. Если положение виджета задано как внизу справа, по умолчанию будет справа.</system:String>
 </ResourceDictionary>

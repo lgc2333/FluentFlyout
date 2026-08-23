@@ -290,4 +290,7 @@
     <system:String x:Key="SearchSettings">搜索设置</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">始终随媒体浮窗一同显隐</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">从托盘图标或任务栏小组件打开或关闭媒体浮窗时，一同显示或隐藏音量浮窗。</system:String>
+    <system:String x:Key="PositionDefault">默认</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">封面位置</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">默认靠左，如果小组件位置设置为右下角，则默认靠右。</system:String>
 </ResourceDictionary>

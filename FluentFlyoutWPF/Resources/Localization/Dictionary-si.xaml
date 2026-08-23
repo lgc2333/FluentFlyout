@@ -16,4 +16,7 @@
     <system:String x:Key="BackgroundBlurOption4" xml:space="preserve"> බොඳ වුන (Style 3)</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Media flyout එකත් සමඟ සෑමවිටම පෙන්වන්න සහ සඟවන්න</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Tray icon එකෙන් හෝ taskbar widget එකෙන් විවෘත කළ විට volume flyout එක media flyout එක සමඟ පෙන්වන්න හෝ සඟවන්න.</system:String>
+    <system:String x:Key="PositionDefault">පෙරනිමි</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">ඇල්බම කවරයේ ස්ථානය</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">පෙරනිමිය වම් පැත්තේය. විජට් ස්ථානය පහළ දකුණ ලෙස සකසා ඇත්නම්, පෙරනිමිය දකුණේය.</system:String>
 </ResourceDictionary>

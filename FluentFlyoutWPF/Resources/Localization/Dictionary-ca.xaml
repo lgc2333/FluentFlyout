@@ -286,4 +286,7 @@ Pots ajudar a contribuir amb les traduccions a</system:String>
     <system:String x:Key="TaskbarWidgetScrollingTextSpeedDescription">Velocitat a la qual es desplaça el text (píxels/segon). El valor per defecte és 20.</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Mostra i amaga sempre amb el desplegable multimèdia</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Mostra o amaga el desplegable de volum juntament amb el desplegable multimèdia quan s&apos;obre des de la icona de la safata o el giny de la barra de tasques.</system:String>
+    <system:String x:Key="PositionDefault">Predeterminat</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Posició de la caràtula</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Per defecte és a l&apos;esquerra. Si la posició del widget està configurada a baix a la dreta, per defecte és a la dreta.</system:String>
 </ResourceDictionary>

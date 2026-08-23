@@ -290,4 +290,7 @@
     <system:String x:Key="SearchSettings">إعدادات البحث</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">إظهار وإخفاء قائمة الصوت دائمًا مع قائمة الوسائط المنبثقة</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">إظهار أو إخفاء قائمة الصوت المنبثقة مع قائمة الوسائط عند فتحها من أيقونة شريط المهام أو أداة شريط المهام.</system:String>
+    <system:String x:Key="PositionDefault">الافتراضي</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">موضع صورة الألبوم</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">الافتراضي إلى اليسار. إذا تم تعيين موضع الأداة إلى أسفل اليمين، يكون الافتراضي إلى اليمين.</system:String>
 </ResourceDictionary>

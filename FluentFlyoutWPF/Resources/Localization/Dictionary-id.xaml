@@ -290,4 +290,7 @@ Anda dapat membantu berkontribusi dalam menerjemahkan di</system:String>
     <system:String x:Key="TaskbarWidgetScrollingTextSpeedDescription">Kecepatan gulir teks (piksel/detik). Nilai bawaan adalah 20.</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Selalu tampil dan sembunyi bersama flyout media</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Tampilkan atau sembunyikan flyout volume bersama flyout media saat dibuka dari ikon baki atau widget bilah tugas.</system:String>
+    <system:String x:Key="PositionDefault">Default</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Posisi Sampul Album</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Default berada di kiri. Jika posisi widget diatur ke kanan bawah, default berada di kanan.</system:String>
 </ResourceDictionary>

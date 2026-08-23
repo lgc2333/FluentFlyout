@@ -288,4 +288,7 @@
     <system:String x:Key="TaskbarVisualizerBaselineAutoHideDescription">जब कोई ऑडियो नहीं चल रहा हो, तो बेसलाइन को अपने-आप छिपा दो</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">मीडिया फ़्लाईआउट के साथ हमेशा दिखाएँ और छिपाएँ</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">ट्रे आइकन या टास्कबार विजेट से खोलने पर वॉल्यूम फ़्लाईआउट को मीडिया फ़्लाईआउट के साथ दिखाएँ या छिपाएँ।</system:String>
+    <system:String x:Key="PositionDefault">डिफ़ॉल्ट</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">एल्बम आर्ट की स्थिति</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">डिफ़ॉल्ट बाईं ओर है। यदि विजेट की स्थिति नीचे-दाईं ओर सेट है, तो डिफ़ॉल्ट दाईं ओर है।</system:String>
 </ResourceDictionary>

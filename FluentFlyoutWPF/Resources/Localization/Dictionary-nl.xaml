@@ -172,4 +172,7 @@ verbergt herhalen, shuffle en spelerinfo</system:String>
     <system:String x:Key="UpdateAvailableNotificationButton">Download Update</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Altijd samen met de mediaflyout tonen en verbergen</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Toon of verberg de volumeflyout samen met de mediaflyout wanneer deze wordt geopend via het systeemvakpictogram of de taakbalkwidget.</system:String>
+    <system:String x:Key="PositionDefault">Standaard</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Positie albumhoes</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Standaard links. Als de widgetpositie is ingesteld op rechtsonder, is standaard rechts.</system:String>
 </ResourceDictionary>

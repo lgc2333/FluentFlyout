@@ -290,4 +290,7 @@ Du kannst helfen, die App zu übersetzen auf</system:String>
     <system:String x:Key="TaskbarWidgetScrollingTextSpeedDescription">Geschwindigkeit, mit der der Text scrollt (Pixel/Sekunde). Der Standardwert ist 20.</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Immer zusammen mit dem Medien-Flyout ein- und ausblenden</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Blendet das Lautstärke-Flyout zusammen mit dem Medien-Flyout ein oder aus, wenn es über das Taskleistensymbol oder das Taskleisten-Widget geöffnet wird.</system:String>
+    <system:String x:Key="PositionDefault">Standard</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Position des Albumcovers</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Standardmäßig links. Wenn die Widget-Position auf unten rechts eingestellt ist, ist die Standardeinstellung rechts.</system:String>
 </ResourceDictionary>

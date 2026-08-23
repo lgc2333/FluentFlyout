@@ -270,4 +270,7 @@ Segíts te is a fordításban a(z)</system:String>
     <system:String x:Key="TaskbarWidgetFixedWidthDescription">A widget szélességét tartsa állandóan, ne pedig a címhez és az előadó nevéhez igazítsa</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Mindig a média flyouttal együtt jelenjen meg és tűnjön el</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">A hangerő flyout megjelenítése vagy elrejtése a média flyouttal együtt, amikor a tálcaikonról vagy a tálcawidgetről nyitja meg.</system:String>
+    <system:String x:Key="PositionDefault">Alapértelmezett</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Albumborító pozíciója</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Az alapértelmezett bal oldalt van. Ha a widget pozíciója jobb alsóra van állítva, az alapértelmezett jobb oldalt van.</system:String>
 </ResourceDictionary>

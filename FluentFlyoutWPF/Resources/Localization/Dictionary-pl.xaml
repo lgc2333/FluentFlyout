@@ -290,4 +290,7 @@ Możesz pomóc w tworzeniu tłumaczeń na stronie</system:String>
     <system:String x:Key="TaskbarWidgetScrollingTextSpeedDescription">Prędkość przewijania tekstu (pikseli na sekundę). Domyślna wartość to 20.</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Zawsze pokazuj i ukrywaj razem z panelem multimediów</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Pokazuj lub ukrywaj panel głośności razem z panelem multimediów po otwarciu z ikony zasobnika lub widżetu paska zadań.</system:String>
+    <system:String x:Key="PositionDefault">Domyślne</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Pozycja okładki albumu</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Domyślnie po lewej. Jeśli pozycja widżetu jest ustawiona na prawy dolny róg, domyślnie jest po prawej.</system:String>
 </ResourceDictionary>

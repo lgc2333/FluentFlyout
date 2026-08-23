@@ -290,4 +290,7 @@
     <system:String x:Key="TaskbarWidgetScrollingTextSpeedDescription">텍스트 스크롤 속도 설정(픽셀/초). 기본값은 20.</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">미디어 플라이아웃과 항상 함께 표시 및 숨기기</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">트레이 아이콘 또는 작업 표시줄 위젯에서 열 때 볼륨 플라이아웃을 미디어 플라이아웃과 함께 표시하거나 숨깁니다.</system:String>
+    <system:String x:Key="PositionDefault">기본값</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">앨범 아트 위치</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">기본값은 왼쪽입니다. 위젯 위치가 오른쪽 아래로 설정되어 있으면 기본값은 오른쪽입니다.</system:String>
 </ResourceDictionary>

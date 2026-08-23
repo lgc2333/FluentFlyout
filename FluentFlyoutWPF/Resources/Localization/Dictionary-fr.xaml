@@ -290,4 +290,7 @@ Vous pouvez contribuer aux traductions sur</system:String>
     <system:String x:Key="SearchSettings">Rechercher les paramètres</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Toujours afficher et masquer avec le menu déroulant Média</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Affiche ou masque le menu déroulant du volume avec le menu déroulant Média lorsqu&apos;il est ouvert depuis l&apos;icône de la zone de notification ou le widget de la barre des tâches.</system:String>
+    <system:String x:Key="PositionDefault">Par défaut</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Position de la pochette</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Par défaut, elle est à gauche. Si la position du widget est définie en bas à droite, elle est à droite par défaut.</system:String>
 </ResourceDictionary>

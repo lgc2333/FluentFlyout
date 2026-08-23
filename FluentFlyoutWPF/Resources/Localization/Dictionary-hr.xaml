@@ -62,4 +62,7 @@ nasumičnu reprodukciju i informacije o mediju</system:String>
     <system:String x:Key="TaskbarWidgetHideCompletelyTitle">Kompletno Sakrij Kada Nema Nikakvog Medija</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Uvijek prikaži i sakrij s medijskim skočnim prozorom</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Prikaži ili sakrij skočni prozor glasnoće zajedno s medijskim skočnim prozorom kada se otvori iz ikone u traci ili widgeta programske trake.</system:String>
+    <system:String x:Key="PositionDefault">Zadano</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Položaj omota albuma</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">Zadano je lijevo. Ako je položaj widgeta postavljen dolje desno, zadano je desno.</system:String>
 </ResourceDictionary>

@@ -290,4 +290,7 @@ Nota: Como um projeto de código aberto, esses recursos também estão disponív
     <system:String x:Key="SearchSettings">Pesquisar configurações</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutTitle">Sempre mostrar e ocultar com o flyout de mídia</system:String>
     <system:String x:Key="VolumeSyncWithMediaFlyoutDescription">Mostra ou oculta o flyout de volume junto com o flyout de mídia ao abrir pelo ícone da bandeja ou pelo widget da barra de tarefas.</system:String>
+    <system:String x:Key="PositionDefault">Padrão</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionTitle">Posição da capa do álbum</system:String>
+    <system:String x:Key="TaskbarWidgetCoverPositionDescription">O padrão fica à esquerda. Se a posição do widget estiver definida como canto inferior direito, o padrão fica à direita.</system:String>
 </ResourceDictionary>

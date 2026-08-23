@@ -47,4 +47,8 @@
     <system:String x:Key="PositionDefault">இயல்பு</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionTitle">ஆல்பம் அட்டையின் நிலை</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionDescription">இயல்பாக இடப்புறம். விட்ஜெட் நிலை கீழ் வலப்புறமாக அமைக்கப்பட்டிருந்தால், இயல்பாக வலப்புறம் இருக்கும்.</system:String>
+    <system:String x:Key="NextUpPositionTitle">ஃப்ளையவுட் தோன்றும் இடம்</system:String>
+    <system:String x:Key="NextUpCenterTitleArtistTitle">தலைப்பு மற்றும் கலைஞரை மையப்படுத்து</system:String>
+    <system:String x:Key="NextUpShowUpNextTextTitle">லேபிளைக் காட்டு</system:String>
+    <system:String x:Key="NextUpShowUpNextTextDescription">பாடல் தகவலுக்கு முன் அடுத்து லேபிளைக் காட்டுகிறது</system:String>
 </ResourceDictionary>

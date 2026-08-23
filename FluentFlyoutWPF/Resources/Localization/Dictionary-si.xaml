@@ -19,4 +19,8 @@
     <system:String x:Key="PositionDefault">පෙරනිමි</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionTitle">ඇල්බම කවරයේ ස්ථානය</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionDescription">පෙරනිමිය වම් පැත්තේය. විජට් ස්ථානය පහළ දකුණ ලෙස සකසා ඇත්නම්, පෙරනිමිය දකුණේය.</system:String>
+    <system:String x:Key="NextUpPositionTitle">ඊළඟ Flyout ස්ථානය</system:String>
+    <system:String x:Key="NextUpCenterTitleArtistTitle">මාතෘකාව සහ කලාකරුවා මධ්‍යයට පෙළගස්වන්න</system:String>
+    <system:String x:Key="NextUpShowUpNextTextTitle">ලේබලය පෙන්වන්න</system:String>
+    <system:String x:Key="NextUpShowUpNextTextDescription">ගීත තොරතුරුට පෙර ඊළඟ ලේබලය පෙන්වයි</system:String>
 </ResourceDictionary>

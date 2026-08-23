@@ -65,4 +65,8 @@ nasumičnu reprodukciju i informacije o mediju</system:String>
     <system:String x:Key="PositionDefault">Zadano</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionTitle">Položaj omota albuma</system:String>
     <system:String x:Key="TaskbarWidgetCoverPositionDescription">Zadano je lijevo. Ako je položaj widgeta postavljen dolje desno, zadano je desno.</system:String>
+    <system:String x:Key="NextUpPositionTitle">Pozicija iskočnog prozora</system:String>
+    <system:String x:Key="NextUpCenterTitleArtistTitle">Centriraj naslov i izvođača</system:String>
+    <system:String x:Key="NextUpShowUpNextTextTitle">Prikaži oznaku</system:String>
+    <system:String x:Key="NextUpShowUpNextTextDescription">Prikazuje oznaku Sljedeće prije informacija o pjesmi</system:String>
 </ResourceDictionary>

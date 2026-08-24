@@ -291,7 +291,7 @@ public partial class TaskbarWidgetControl : UserControl
         if (_mainWindow == null) return;
 
         // toggle main flyout when clicked
-        _mainWindow.ShowMediaFlyoutWithSyncedVolume(toggleMode: true, forceShow: true);
+        _mainWindow.ShowMediaFlyoutWithVolume(toggleMode: true, forceShow: true);
     }
 
     public (double logicalWidth, double logicalHeight) CalculateSize(double dpiScale)

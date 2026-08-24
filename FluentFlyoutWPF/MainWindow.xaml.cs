@@ -901,21 +901,21 @@ public partial class MainWindow : MicaWindow
         volumeMixerWindow?.ShowFlyout();
     }
 
-    public void ShowMediaFlyoutWithSyncedVolume(bool toggleMode = false, bool forceShow = false)
+    public void ShowMediaFlyoutWithVolume(bool toggleMode = false, bool forceShow = false)
     {
-        bool shouldSyncVolumeFlyout = GetActiveMediaSession() != null
+        bool shouldShowVolumeFlyoutWithMedia = GetActiveMediaSession() != null
             && (forceShow || SettingsManager.Current.MediaFlyoutEnabled)
             && !FullscreenDetector.IsFullscreenApplicationRunning()
             && SettingsManager.Current.VolumeControlEnabled
             && SettingsManager.Current.VolumeControlSyncWithMediaFlyout;
         bool isToggleClose = toggleMode && Visibility == Visibility.Visible && !_isHiding;
 
-        if (shouldSyncVolumeFlyout && isToggleClose)
+        if (shouldShowVolumeFlyoutWithMedia && isToggleClose)
             volumeMixerWindow?.HideFlyout();
 
         ShowMediaFlyout(toggleMode, forceShow);
 
-        if (shouldSyncVolumeFlyout && !isToggleClose)
+        if (shouldShowVolumeFlyoutWithMedia && !isToggleClose)
             ShowVolumeFlyoutIfEnabled();
     }
 
@@ -1936,7 +1936,7 @@ public partial class MainWindow : MicaWindow
             //ThemeService themeService = new ThemeService();
             //themeService.ChangeTheme(MicaWPF.Core.Enums.WindowsTheme.Light);
         }
-        else if (SettingsManager.Current.NIconLeftClick == 1) ShowMediaFlyoutWithSyncedVolume();
+        else if (SettingsManager.Current.NIconLeftClick == 1) ShowMediaFlyoutWithVolume();
     }
 
     private Task PauseOtherSessions(MediaSession currentMediaSession)

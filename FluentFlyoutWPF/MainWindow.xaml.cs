@@ -1236,9 +1236,6 @@ public partial class MainWindow : MicaWindow
             bool centerControlsWithSongInfo = !SettingsManager.Current.CompactLayout
                 && SettingsManager.Current.CenterTitleArtist
                 && !SettingsManager.Current.PlayerInfoEnabled;
-            int visibleControlsWidth = 108;
-            visibleControlsWidth += SettingsManager.Current.RepeatEnabled ? 36 : 0;
-            visibleControlsWidth += SettingsManager.Current.ShuffleEnabled ? 36 : 0;
 
             if (SettingsManager.Current.CompactLayout) // compact layout
             {
@@ -1246,9 +1243,10 @@ public partial class MainWindow : MicaWindow
                 Width = 400;
                 BodyStackPanel.Orientation = Orientation.Horizontal;
                 BodyStackPanel.Width = 300;
-                ControlsStackPanel.Margin = new Thickness(0);
-                ControlsStackPanel.Width = 104;
-                ControlsStackPanel.HorizontalAlignment = HorizontalAlignment.Right;
+                ControlsStackPanelContainer.Margin = new Thickness(2, 0, 0, 0);
+                ControlsStackPanelContainer.Width = 104;
+                ControlsStackPanelContainer.HorizontalAlignment = HorizontalAlignment.Left;
+                ControlsStackPanel.HorizontalAlignment = HorizontalAlignment.Left;
                 MediaIdButton.Visibility = Visibility.Collapsed;
                 SongImageBorder.Margin = new Thickness(0);
                 SongImageBorder.Height = 36;
@@ -1257,7 +1255,7 @@ public partial class MainWindow : MicaWindow
                 if (SettingsManager.Current.MediaFlyoutAlwaysDisplay)
                 {
                     SongInfoStackPanel.Width -= 36;
-                    ControlsStackPanel.Width += 44;
+                    ControlsStackPanelContainer.Width += 44;
                 }
             }
             else // normal layout
@@ -1266,9 +1264,12 @@ public partial class MainWindow : MicaWindow
                 Width = 310 - 72 + extraWidth;
                 BodyStackPanel.Orientation = Orientation.Vertical;
                 BodyStackPanel.Width = 194 - 72 + extraWidth;
-                ControlsStackPanel.Margin = Margin = new Thickness(12, 8, 0, 0);
-                ControlsStackPanel.Width = centerControlsWithSongInfo ? visibleControlsWidth : 184 - 72 + extraWidth;
-                ControlsStackPanel.HorizontalAlignment = centerControlsWithSongInfo ? HorizontalAlignment.Center : HorizontalAlignment.Right;
+                ControlsStackPanelContainer.Margin = centerControlsWithSongInfo
+                    ? new Thickness(12, 8, 0, 0)
+                    : new Thickness(14, 8, 0, 0);
+                ControlsStackPanelContainer.Width = double.NaN;
+                ControlsStackPanelContainer.HorizontalAlignment = HorizontalAlignment.Stretch;
+                ControlsStackPanel.HorizontalAlignment = centerControlsWithSongInfo ? HorizontalAlignment.Center : HorizontalAlignment.Left;
                 MediaIdButton.Visibility = Visibility.Visible;
                 SongImageBorder.Margin = new Thickness(6);
                 SongImageBorder.Height = 78;

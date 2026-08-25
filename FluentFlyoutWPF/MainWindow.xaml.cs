@@ -394,15 +394,20 @@ public partial class MainWindow : MicaWindow
         return MonitorUtil.GetSelectedMonitor(SettingsManager.Current.FlyoutSelectedMonitor);
     }
 
-    /// <summary>
-    /// Computes the final resting position (left, top) for a window based on the current
-    /// position setting and the selected monitor's work area.
-    /// </summary>
     private static int NormalizeFlyoutPosition(int position)
     {
         return position is >= 0 and <= 5 ? position : 0;
     }
 
+    private static double GetBottomCenterFlyoutBottomMargin()
+    {
+        return SettingsManager.Current.VolumeControlEnabled && SettingsManager.Current.VolumeControlAboveMediaFlyout ? 16 : 80;
+    }
+
+    /// <summary>
+    /// Computes the final resting position (left, top) for a window based on the current
+    /// position setting and the selected monitor's work area.
+    /// </summary>
     private (double left, double top) GetFinalPosition(Rect windowRect, Rect workArea, int? positionOverride = null)
     {
         int position = NormalizeFlyoutPosition(positionOverride ?? SettingsManager.Current.Position);
@@ -415,7 +420,7 @@ public partial class MainWindow : MicaWindow
         double top = position switch
         {
             0 or 2 => workArea.Top + workArea.Height - windowRect.Height - 16,
-            1 => workArea.Top + workArea.Height - windowRect.Height - 80,
+            1 => workArea.Top + workArea.Height - windowRect.Height - GetBottomCenterFlyoutBottomMargin(),
             _ => workArea.Top + 16
         };
         return (left, top);
@@ -483,12 +488,13 @@ public partial class MainWindow : MicaWindow
             }
             else if (_position == 1)
             {
+                double bottomMargin = GetBottomCenterFlyoutBottomMargin();
                 window_left = workArea.Left + workArea.Width / 2 - windowRect.Width / 2;
-                moveAnimation.To = workArea.Top + workArea.Height - windowRect.Height - 80;
+                moveAnimation.To = workArea.Top + workArea.Height - windowRect.Height - bottomMargin;
                 if (SettingsManager.Current.FlyoutAnimationSpeed == 0)
                     moveAnimation.From = moveAnimation.To;
                 else
-                    moveAnimation.From = workArea.Top + workArea.Height - windowRect.Height - 60;
+                    moveAnimation.From = moveAnimation.To + 20;
             }
             else if (_position == 2)
             {
